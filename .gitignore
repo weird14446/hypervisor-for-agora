@@ -144,6 +144,15 @@ core.[0-9]*
 Thumbs.db
 Desktop.ini
 
+# Multi-agent teamwork logs and coordination traces
+.agents/
+
+# Formal verification build artifacts and solver caches (Lean 4, Lake, Z3)
+.lake/
+*.olean
+*.ilean
+*.trace
+
 # Keep config checksums, public GPG signature fixtures and dependency lockfiles.
 # Deliberately no blanket rules for *.gpg, *.json, *.service, *.socket or *.lock.
 
